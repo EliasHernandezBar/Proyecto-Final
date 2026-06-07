@@ -102,6 +102,7 @@ GROUP BY ds.store_location
 ORDER BY net_sales DESC;
 
 
+
 select * from analitica.v_kpi_sales_by_store;
 
 

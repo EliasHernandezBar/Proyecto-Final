@@ -1,0 +1,17 @@
+Coffee: #6E4F2D
+
+Tea: #98B58A
+
+Bakery: #C7A379
+
+Drink Chocolate: #8C643A
+
+Coffee Beans: #A37A4C
+
+Branded: #42635D
+
+Loose tea: #759168
+
+Flavors: #DEBE99
+
+Packcakes Chocolate: #8C6B4C
