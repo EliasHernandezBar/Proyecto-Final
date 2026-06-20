@@ -122,7 +122,8 @@ SELECT
     fs.unit_price,
     fs.total_amount,
     ds.store_location,
-    dp.product_category
+    dp.product_category,
+    fs.transaction_time
 FROM analitica.v_fact_sales_enriched fs
 JOIN analitica.dim_store ds
     ON fs.store_id = ds.store_id
@@ -130,4 +131,5 @@ JOIN analitica.dim_product dp
     ON fs.product_id = dp.product_id;
 
 select * from analitica.v_ml_sales limit 2000;
+
 
