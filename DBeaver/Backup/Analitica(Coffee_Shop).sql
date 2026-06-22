@@ -91,7 +91,7 @@ ALTER TABLE analitica.dim_payment_methods
 
 -- =========================================================
 -- 3) Hechos (CTAS) - fact_sales
---    Crear una columna 'total' con el total de cada venta
+--    Crear una columna 'total_amount' con el total de cada venta
 --    Introducir el total a cada transacción/venta
 -- =========================================================
 CREATE TABLE analitica.fact_sales AS
@@ -174,4 +174,4 @@ select * from analitica.dim_employee;
 select * from analitica.dim_product   LIMIT 5;
 select * from analitica.dim_payment_methods;
 select * from analitica.dim_store;
-select * from analitica.fact_sales;
+select * from analitica.fact_sales limit 20;

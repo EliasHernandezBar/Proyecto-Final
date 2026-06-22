@@ -2,9 +2,9 @@
 -- PostgreSQL database cluster dump
 --
 
--- Started on 2026-05-17 19:30:24
+-- Started on 2026-06-22 20:41:07
 
-\restrict ewqfKoXARywuFYgF4lgQtxes6lhMKmQaCnq1XoyaTzo6WTLS3HEwzbGAx5w2Ivu
+\restrict icA4QWgMB2TqMOayUuZ0RYSbKY6ylZ0DPe1Kdq5cypzb7N5zCthh5uyTvUP49tu
 
 SET default_transaction_read_only = off;
 
@@ -29,7 +29,7 @@ ALTER ROLE postgres WITH SUPERUSER INHERIT CREATEROLE CREATEDB LOGIN REPLICATION
 
 
 
-\unrestrict ewqfKoXARywuFYgF4lgQtxes6lhMKmQaCnq1XoyaTzo6WTLS3HEwzbGAx5w2Ivu
+\unrestrict icA4QWgMB2TqMOayUuZ0RYSbKY6ylZ0DPe1Kdq5cypzb7N5zCthh5uyTvUP49tu
 
 --
 -- Databases
@@ -45,12 +45,12 @@ ALTER ROLE postgres WITH SUPERUSER INHERIT CREATEROLE CREATEDB LOGIN REPLICATION
 -- PostgreSQL database dump
 --
 
-\restrict NFhxbv8MDgQu5NnsrVPoP0NqlqgudCjOQQvB3YhlphVWxDX7XZoZPoJR2lSxNTz
+\restrict 3zo67y2Ue6g0LUVcJiQR2mRxSLqAO1x4WTS48FnHwvfBapTjLbNLPkFmQuJlcwq
 
 -- Dumped from database version 18.1
 -- Dumped by pg_dump version 18.1
 
--- Started on 2026-05-17 19:30:25
+-- Started on 2026-06-22 20:41:07
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -64,13 +64,13 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
--- Completed on 2026-05-17 19:30:25
+-- Completed on 2026-06-22 20:41:08
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict NFhxbv8MDgQu5NnsrVPoP0NqlqgudCjOQQvB3YhlphVWxDX7XZoZPoJR2lSxNTz
+\unrestrict 3zo67y2Ue6g0LUVcJiQR2mRxSLqAO1x4WTS48FnHwvfBapTjLbNLPkFmQuJlcwq
 
 --
 -- Database "Biblioteca" dump
@@ -80,12 +80,12 @@ SET row_security = off;
 -- PostgreSQL database dump
 --
 
-\restrict qedshoKU1WkkbaXWYF3lf67fLIz8z8CoaS9OtbMSbBaSoJMGpy6LEehooFsuhHB
+\restrict RtqHIFAfxtGDNThf7cbhP8em7Jlin44eyt2WSWa4XafgihwyTZSd4xsvhrT0iQk
 
 -- Dumped from database version 18.1
 -- Dumped by pg_dump version 18.1
 
--- Started on 2026-05-17 19:30:25
+-- Started on 2026-06-22 20:41:08
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -109,9 +109,9 @@ CREATE DATABASE "Biblioteca" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_
 
 ALTER DATABASE "Biblioteca" OWNER TO postgres;
 
-\unrestrict qedshoKU1WkkbaXWYF3lf67fLIz8z8CoaS9OtbMSbBaSoJMGpy6LEehooFsuhHB
+\unrestrict RtqHIFAfxtGDNThf7cbhP8em7Jlin44eyt2WSWa4XafgihwyTZSd4xsvhrT0iQk
 \connect "Biblioteca"
-\restrict qedshoKU1WkkbaXWYF3lf67fLIz8z8CoaS9OtbMSbBaSoJMGpy6LEehooFsuhHB
+\restrict RtqHIFAfxtGDNThf7cbhP8em7Jlin44eyt2WSWa4XafgihwyTZSd4xsvhrT0iQk
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -443,13 +443,13 @@ ALTER TABLE ONLY ec04_biblioteca.prestamos
     ADD CONSTRAINT prestamos_num_socio_fkey FOREIGN KEY (num_socio) REFERENCES ec04_biblioteca.socios(num_socio) ON DELETE CASCADE;
 
 
--- Completed on 2026-05-17 19:30:25
+-- Completed on 2026-06-22 20:41:08
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict qedshoKU1WkkbaXWYF3lf67fLIz8z8CoaS9OtbMSbBaSoJMGpy6LEehooFsuhHB
+\unrestrict RtqHIFAfxtGDNThf7cbhP8em7Jlin44eyt2WSWa4XafgihwyTZSd4xsvhrT0iQk
 
 --
 -- Database "Cine_Bootcamp" dump
@@ -459,12 +459,12 @@ ALTER TABLE ONLY ec04_biblioteca.prestamos
 -- PostgreSQL database dump
 --
 
-\restrict WsMg2b5tTfALxh0yXSX8XrinlinIOUkZlgbkupFfewbOPqam3JzzBGcTe9C62Kn
+\restrict ipZa7wRlo2hQnWUFYWVC9AE7kKnOnmT4gckINQ4oUmG6yuzgQLvSHdrOHiJFRiA
 
 -- Dumped from database version 18.1
 -- Dumped by pg_dump version 18.1
 
--- Started on 2026-05-17 19:30:25
+-- Started on 2026-06-22 20:41:08
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -488,9 +488,9 @@ CREATE DATABASE "Cine_Bootcamp" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCA
 
 ALTER DATABASE "Cine_Bootcamp" OWNER TO postgres;
 
-\unrestrict WsMg2b5tTfALxh0yXSX8XrinlinIOUkZlgbkupFfewbOPqam3JzzBGcTe9C62Kn
+\unrestrict ipZa7wRlo2hQnWUFYWVC9AE7kKnOnmT4gckINQ4oUmG6yuzgQLvSHdrOHiJFRiA
 \connect "Cine_Bootcamp"
-\restrict WsMg2b5tTfALxh0yXSX8XrinlinIOUkZlgbkupFfewbOPqam3JzzBGcTe9C62Kn
+\restrict ipZa7wRlo2hQnWUFYWVC9AE7kKnOnmT4gckINQ4oUmG6yuzgQLvSHdrOHiJFRiA
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1107,13 +1107,13 @@ ALTER TABLE ONLY ec03_cine.sala_detalle
     ADD CONSTRAINT sala_detalle_sala_id_fkey FOREIGN KEY (sala_id) REFERENCES ec03_cine.salas(id) ON DELETE CASCADE;
 
 
--- Completed on 2026-05-17 19:30:26
+-- Completed on 2026-06-22 20:41:09
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict WsMg2b5tTfALxh0yXSX8XrinlinIOUkZlgbkupFfewbOPqam3JzzBGcTe9C62Kn
+\unrestrict ipZa7wRlo2hQnWUFYWVC9AE7kKnOnmT4gckINQ4oUmG6yuzgQLvSHdrOHiJFRiA
 
 --
 -- Database "Coffee Shop" dump
@@ -1123,12 +1123,12 @@ ALTER TABLE ONLY ec03_cine.sala_detalle
 -- PostgreSQL database dump
 --
 
-\restrict aqaqSodmcnYSciSZAo7uFHQmAYr1T4hrIVtWiORK8MTeSbtHaKBD0PXOaSWVxAY
+\restrict FqA0RL8dTdQr4lviL8z2imZImRjwqA2Gsfb58TSuf0TDue9U3J94lJDWbPnFQgX
 
 -- Dumped from database version 18.1
 -- Dumped by pg_dump version 18.1
 
--- Started on 2026-05-17 19:30:26
+-- Started on 2026-06-22 20:41:09
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1152,10 +1152,10 @@ CREATE DATABASE "Coffee Shop" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE
 
 ALTER DATABASE "Coffee Shop" OWNER TO postgres;
 
-\unrestrict aqaqSodmcnYSciSZAo7uFHQmAYr1T4hrIVtWiORK8MTeSbtHaKBD0PXOaSWVxAY
+\unrestrict FqA0RL8dTdQr4lviL8z2imZImRjwqA2Gsfb58TSuf0TDue9U3J94lJDWbPnFQgX
 \encoding SQL_ASCII
 \connect -reuse-previous=on "dbname='Coffee Shop'"
-\restrict aqaqSodmcnYSciSZAo7uFHQmAYr1T4hrIVtWiORK8MTeSbtHaKBD0PXOaSWVxAY
+\restrict FqA0RL8dTdQr4lviL8z2imZImRjwqA2Gsfb58TSuf0TDue9U3J94lJDWbPnFQgX
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1311,7 +1311,7 @@ CREATE VIEW analitica.v_fact_sales_enriched AS
 ALTER VIEW analitica.v_fact_sales_enriched OWNER TO postgres;
 
 --
--- TOC entry 235 (class 1259 OID 99086)
+-- TOC entry 234 (class 1259 OID 99086)
 -- Name: v_kpi_sales_by_product; Type: VIEW; Schema: analitica; Owner: postgres
 --
 
@@ -1331,7 +1331,7 @@ CREATE VIEW analitica.v_kpi_sales_by_product AS
 ALTER VIEW analitica.v_kpi_sales_by_product OWNER TO postgres;
 
 --
--- TOC entry 236 (class 1259 OID 99091)
+-- TOC entry 235 (class 1259 OID 99091)
 -- Name: v_kpi_sales_by_store; Type: VIEW; Schema: analitica; Owner: postgres
 --
 
@@ -1351,7 +1351,7 @@ CREATE VIEW analitica.v_kpi_sales_by_store AS
 ALTER VIEW analitica.v_kpi_sales_by_store OWNER TO postgres;
 
 --
--- TOC entry 234 (class 1259 OID 99081)
+-- TOC entry 237 (class 1259 OID 107205)
 -- Name: v_kpi_sales_monthly; Type: VIEW; Schema: analitica; Owner: postgres
 --
 
@@ -1372,7 +1372,7 @@ CREATE VIEW analitica.v_kpi_sales_monthly AS
 ALTER VIEW analitica.v_kpi_sales_monthly OWNER TO postgres;
 
 --
--- TOC entry 237 (class 1259 OID 107195)
+-- TOC entry 236 (class 1259 OID 107195)
 -- Name: v_ml_sales; Type: VIEW; Schema: analitica; Owner: postgres
 --
 
@@ -1385,7 +1385,8 @@ CREATE VIEW analitica.v_ml_sales AS
     fs.unit_price,
     fs.total_amount,
     ds.store_location,
-    dp.product_category
+    dp.product_category,
+    fs.transaction_time
    FROM ((analitica.v_fact_sales_enriched fs
      JOIN analitica.dim_store ds ON ((fs.store_id = ds.store_id)))
      JOIN analitica.dim_product dp ON ((fs.product_id = dp.product_id)));
@@ -400271,13 +400272,13 @@ ALTER TABLE ONLY coffee_shop.sales
     ADD CONSTRAINT sales_store_id_fkey FOREIGN KEY (store_id) REFERENCES coffee_shop.store(store_id) ON DELETE CASCADE;
 
 
--- Completed on 2026-05-17 19:30:26
+-- Completed on 2026-06-22 20:41:09
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict aqaqSodmcnYSciSZAo7uFHQmAYr1T4hrIVtWiORK8MTeSbtHaKBD0PXOaSWVxAY
+\unrestrict FqA0RL8dTdQr4lviL8z2imZImRjwqA2Gsfb58TSuf0TDue9U3J94lJDWbPnFQgX
 
 --
 -- Database "Hospital" dump
@@ -400287,12 +400288,12 @@ ALTER TABLE ONLY coffee_shop.sales
 -- PostgreSQL database dump
 --
 
-\restrict ys8kum1vFrpbVRoK9IW7AiSBU0fKP9xlYlbh7lOdRoTEY8pfq8TZJ89XfjLYG0I
+\restrict eb8JwYGeHSvCukbUI6NbzWTkjR7mQd24stF6LnQEKmdAkquCpbhbFqnqTn4D5dw
 
 -- Dumped from database version 18.1
 -- Dumped by pg_dump version 18.1
 
--- Started on 2026-05-17 19:30:26
+-- Started on 2026-06-22 20:41:09
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -400316,9 +400317,9 @@ CREATE DATABASE "Hospital" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PR
 
 ALTER DATABASE "Hospital" OWNER TO postgres;
 
-\unrestrict ys8kum1vFrpbVRoK9IW7AiSBU0fKP9xlYlbh7lOdRoTEY8pfq8TZJ89XfjLYG0I
+\unrestrict eb8JwYGeHSvCukbUI6NbzWTkjR7mQd24stF6LnQEKmdAkquCpbhbFqnqTn4D5dw
 \connect "Hospital"
-\restrict ys8kum1vFrpbVRoK9IW7AiSBU0fKP9xlYlbh7lOdRoTEY8pfq8TZJ89XfjLYG0I
+\restrict eb8JwYGeHSvCukbUI6NbzWTkjR7mQd24stF6LnQEKmdAkquCpbhbFqnqTn4D5dw
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -400803,13 +400804,13 @@ ALTER TABLE ONLY ec06_hospital.paciente_enfermedad
     ADD CONSTRAINT paciente_enfermedad_id_enfermedad_fkey FOREIGN KEY (id_enfermedad) REFERENCES ec06_hospital.enfermedades(id_enfermedad) ON DELETE CASCADE;
 
 
--- Completed on 2026-05-17 19:30:27
+-- Completed on 2026-06-22 20:41:10
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict ys8kum1vFrpbVRoK9IW7AiSBU0fKP9xlYlbh7lOdRoTEY8pfq8TZJ89XfjLYG0I
+\unrestrict eb8JwYGeHSvCukbUI6NbzWTkjR7mQd24stF6LnQEKmdAkquCpbhbFqnqTn4D5dw
 
 --
 -- Database "Mercado" dump
@@ -400819,12 +400820,12 @@ ALTER TABLE ONLY ec06_hospital.paciente_enfermedad
 -- PostgreSQL database dump
 --
 
-\restrict bEiv5vD1IXnossZpwIpMtJPeA8dwDRJVeJzGeWfDdNS32lWkICOLj9veapSOK7V
+\restrict bFTm5JkHO6omHGO5RUm9sKNklPfyEr2aKZKFaBgdls0JCdfHYabMX4JWrmk1vDn
 
 -- Dumped from database version 18.1
 -- Dumped by pg_dump version 18.1
 
--- Started on 2026-05-17 19:30:27
+-- Started on 2026-06-22 20:41:10
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -400848,9 +400849,9 @@ CREATE DATABASE "Mercado" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PRO
 
 ALTER DATABASE "Mercado" OWNER TO postgres;
 
-\unrestrict bEiv5vD1IXnossZpwIpMtJPeA8dwDRJVeJzGeWfDdNS32lWkICOLj9veapSOK7V
+\unrestrict bFTm5JkHO6omHGO5RUm9sKNklPfyEr2aKZKFaBgdls0JCdfHYabMX4JWrmk1vDn
 \connect "Mercado"
-\restrict bEiv5vD1IXnossZpwIpMtJPeA8dwDRJVeJzGeWfDdNS32lWkICOLj9veapSOK7V
+\restrict bFTm5JkHO6omHGO5RUm9sKNklPfyEr2aKZKFaBgdls0JCdfHYabMX4JWrmk1vDn
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -401473,13 +401474,13 @@ ALTER TABLE ONLY ec12_mercado.ventas
     ADD CONSTRAINT ventas_metodo_pago_id_fkey FOREIGN KEY (metodo_pago_id) REFERENCES ec12_mercado.metodos_pago(id) ON DELETE CASCADE;
 
 
--- Completed on 2026-05-17 19:30:27
+-- Completed on 2026-06-22 20:41:10
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict bEiv5vD1IXnossZpwIpMtJPeA8dwDRJVeJzGeWfDdNS32lWkICOLj9veapSOK7V
+\unrestrict bFTm5JkHO6omHGO5RUm9sKNklPfyEr2aKZKFaBgdls0JCdfHYabMX4JWrmk1vDn
 
 --
 -- Database "Veterinaria" dump
@@ -401489,12 +401490,12 @@ ALTER TABLE ONLY ec12_mercado.ventas
 -- PostgreSQL database dump
 --
 
-\restrict kbJi4NUxg6zP3tSehST6HPkXEaBM0PzBEv8MYyfAm7abf52tZZwaVD4u5KD7LSb
+\restrict YwMFjCbT9KAlJLQ42aCCMKcfNl8Uwdb0KzlDrMcSCBY80LtQ8satSWcWDgD20MT
 
 -- Dumped from database version 18.1
 -- Dumped by pg_dump version 18.1
 
--- Started on 2026-05-17 19:30:27
+-- Started on 2026-06-22 20:41:10
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -401518,9 +401519,9 @@ CREATE DATABASE "Veterinaria" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE
 
 ALTER DATABASE "Veterinaria" OWNER TO postgres;
 
-\unrestrict kbJi4NUxg6zP3tSehST6HPkXEaBM0PzBEv8MYyfAm7abf52tZZwaVD4u5KD7LSb
+\unrestrict YwMFjCbT9KAlJLQ42aCCMKcfNl8Uwdb0KzlDrMcSCBY80LtQ8satSWcWDgD20MT
 \connect "Veterinaria"
-\restrict kbJi4NUxg6zP3tSehST6HPkXEaBM0PzBEv8MYyfAm7abf52tZZwaVD4u5KD7LSb
+\restrict YwMFjCbT9KAlJLQ42aCCMKcfNl8Uwdb0KzlDrMcSCBY80LtQ8satSWcWDgD20MT
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -402189,15 +402190,15 @@ ALTER TABLE ONLY public.ventas
     ADD CONSTRAINT ventas_metodo_pago_id_fkey FOREIGN KEY (metodo_pago_id) REFERENCES public.metodos_pago(id) ON DELETE CASCADE;
 
 
--- Completed on 2026-05-17 19:30:27
+-- Completed on 2026-06-22 20:41:11
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict kbJi4NUxg6zP3tSehST6HPkXEaBM0PzBEv8MYyfAm7abf52tZZwaVD4u5KD7LSb
+\unrestrict YwMFjCbT9KAlJLQ42aCCMKcfNl8Uwdb0KzlDrMcSCBY80LtQ8satSWcWDgD20MT
 
--- Completed on 2026-05-17 19:30:27
+-- Completed on 2026-06-22 20:41:11
 
 --
 -- PostgreSQL database cluster dump complete
