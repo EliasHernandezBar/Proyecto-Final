@@ -13,7 +13,7 @@ A lo largo del desarrollo, he buscado no solo aplicar herramientas técnicas, si
 
 ## 🚀 Acceso rápido
 
-- 📓 Notebook completo: `Proyecto_Integrador.ipynb`
+- 📓 Notebook completo: ![Proyecto_Integrador](Notebook/Proyecto_Integrador.ipynb)
 - 📊 Dashboard Power BI: "https://app.powerbi.com/view?r=eyJrIjoiZDg0Y2QxOTUtOTNiNC00YWI0LWIxMGUtMDVkMDNlYWVlZDU4IiwidCI6ImFlYzc2MmU0LTNkNTQtNDk1ZS1hOGZlLTQyODdkY2U2ZmU2OSIsImMiOjh9&pageName=f41c4c681b682fdd5897"
 
 ---
