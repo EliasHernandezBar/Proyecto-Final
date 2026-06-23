@@ -1,4 +1,4 @@
-# ☕ Hudson Brew Analytics | SQL, Python, Power BI & Machine Learning
+# ☕ Hudson Brew Analytics Project
 
 Este proyecto ha sido desarrollado como parte de mi formación en un bootcamp de Data Analytics en Neoland, utilizando una franquicia ficticia de cafeterías llamada Hudson Brew.
 
@@ -11,26 +11,10 @@ A lo largo del desarrollo, he buscado no solo aplicar herramientas técnicas, si
 
 ---
 
-## 🎯 Preguntas de negocio
-
-El proyecto se desarrolló para responder las siguientes cuestiones:
-
-- ¿Cómo evolucionan las ventas a lo largo del tiempo?
-- ¿Cuál es el mejor horario para promocionar ventas?
-- ¿Existen diferencias significativas entre las tres cafeterías?
-- ¿Qué categorías generan más ingresos?
-- ¿Cuáles son los productos más vendidos?
-- ¿Qué segmentos de clientes pueden identificarse?
-- ¿Existen patrones de compra según el día o el mes?
-- ¿Qué factores influyen en las ventas de mayor valor económico?
-- ¿Los datos respaldan una futura expansión de Hudson Brew?
-
----
-
 ## 🚀 Acceso rápido
 
 - 📓 Notebook completo: `Proyecto_Integrador.ipynb`
-- 📊 Dashboard Power BI: https://app.powerbi.com/view?r=eyJrIjoiZDg0Y2QxOTUtOTNiNC00YWI0LWIxMGUtMDVkMDNlYWVlZDU4IiwidCI6ImFlYzc2MmU0LTNkNTQtNDk1ZS1hOGZlLTQyODdkY2U2ZmU2OSIsImMiOjh9
+- 📊 Dashboard Power BI: "https://app.powerbi.com/view?r=eyJrIjoiZDg0Y2QxOTUtOTNiNC00YWI0LWIxMGUtMDVkMDNlYWVlZDU4IiwidCI6ImFlYzc2MmU0LTNkNTQtNDk1ZS1hOGZlLTQyODdkY2U2ZmU2OSIsImMiOjh9&pageName=f41c4c681b682fdd5897"
 
 ---
 
@@ -161,19 +145,9 @@ El desarrollo sigue un flujo típico de un proyecto profesional:
 
 ### 🔹 Machine Learning
 
-Se aplicaron tres técnicas complementarias:
-
-- **Regresión Lineal**
-  - Predicción del importe de las ventas.
-  - R² = 0.9383.
-
-- **Regresión Logística**
-  - Clasificación de ventas de alto valor (percentil 75).
-  - Identificación de factores asociados a tickets elevados.
-
-- **K-Means**
-  - Segmentación automática de patrones de compra.
-  - Identificación de comportamientos diferenciados entre mañana y tarde.
+- Regresión lineal → R² = 0.9383  
+- Regresión logística → segmentación de ventas de alto valor  
+- K-Means → patrones de consumo por hora
 
 ---
 
@@ -223,7 +197,7 @@ Se aplicaron tres técnicas complementarias:
 
 ## 🖼️ Arquitectura del proyecto
 
-![Arquitectura](arquitectura_hudson_brew.png)
+![Arquitectura](assets/arquitectura_hudson_brew.png)
 
 ---
 
