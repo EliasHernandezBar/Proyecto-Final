@@ -197,7 +197,7 @@ El desarrollo sigue un flujo típico de un proyecto profesional:
 
 ## 🖼️ Arquitectura del proyecto
 
-![Arquitectura](assets/arquitectura_hudson_brew.png)
+![Arquitectura](arquitectura_hudson_brew.png)
 
 ---
 
