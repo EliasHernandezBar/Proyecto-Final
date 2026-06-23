@@ -223,7 +223,7 @@ Se aplicaron tres técnicas complementarias:
 
 ## 🖼️ Arquitectura del proyecto
 
-![Arquitectura](assets/arquitectura_hudson_brew.png)
+![Arquitectura](arquitectura_hudson_brew.png)
 
 ---
 
