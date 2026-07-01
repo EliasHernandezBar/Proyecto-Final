@@ -1,4 +1,4 @@
-# ☕ Hudson Brew Analytics Project
+# ☕ Hudson Brew | Proyecto End-to-End de Analítica de Datos
 
 Este proyecto ha sido desarrollado como parte de mi formación en un bootcamp de Data Analytics en Neoland, utilizando una franquicia ficticia de cafeterías llamada Hudson Brew.
 
